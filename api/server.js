@@ -4,11 +4,6 @@ const helmet = require('helmet');
 const server = express();
 const router = require('./users/users-router');
 const Middleware = require('./middleware/middleware');
-// const validateUserId = require('./middleware/middleware');
-
-// const validateUser = require('./middleware/middleware');
-
-// const validatePost = require('./middleware/middleware');
 
 // !! remember express by default cannot parse JSON in request bodies
 server.use(express.json());
