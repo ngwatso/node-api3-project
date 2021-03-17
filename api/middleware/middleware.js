@@ -3,7 +3,7 @@ const timestamp = require('log-timestamp');
 
 function logger(req, res, next) {
 	// ** DO YOUR MAGIC
-	console.log(`[${timestamp}]${req.method} to ${req.URL} `);
+	// console.log(`${timestamp}${req.method} to ${req.URL} `);
 	next();
 }
 
