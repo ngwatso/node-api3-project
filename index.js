@@ -1,4 +1,4 @@
-// !! require your server and launch it
+// !! Require your server and launch it
 require('dotenv').config();
 const server = require('./api/server');
 
